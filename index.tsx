@@ -608,7 +608,7 @@ const Icons = {
 
 const LandingPage = ({ onEnter }: { onEnter: () => void }) => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center p-6 font-sans">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center p-6 py-12 font-sans overflow-auto">
       {/* Modal Popup */}
       <div className="bg-white rounded-3xl shadow-2xl max-w-4xl w-full overflow-hidden">
         {/* Header */}

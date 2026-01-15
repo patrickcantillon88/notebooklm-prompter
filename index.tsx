@@ -624,15 +624,6 @@ const LandingPage = ({ onEnter }: { onEnter: () => void }) => {
           </p>
         </div>
 
-        {/* Infographic Image */}
-        <div className="px-4 pt-4">
-          <img 
-            src="/Teahcer_Info_graphic_better2.jpg" 
-            alt="NotebookLM Prompter - Less Formatting, More Teaching" 
-            className="w-full h-auto rounded-xl"
-          />
-        </div>
-
         {/* Thought Partner Message */}
         <div className="mx-4 mb-4 bg-slate-800 rounded-xl p-5 flex items-center gap-4">
           <div className="bg-amber-400 rounded-full p-3 flex-shrink-0">
